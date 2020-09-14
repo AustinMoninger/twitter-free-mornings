@@ -40,7 +40,7 @@ function injectUI(timelineParent) {
 
 function replaceTimeline() {
     function replaceTimelineRetry() {
-        const timeline = document.querySelector(`[aria-label="Timeline: Your Home Timeline"]`)        
+        const timeline = document.querySelector(`[aria-label="Timeline: Your Home Timeline"]`)
         // If the site has loaded, remove the timeline and sidebar
         if (timeline == null) {
             return
