@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Twitter-Free Mornings",
     "description": "Silence the noise for a bit every morning.",
-    "version": "0.1",
+    "version": "0.2",
     "content_scripts": [
         {
             "matches": [
