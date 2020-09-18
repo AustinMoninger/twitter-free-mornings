@@ -36,6 +36,7 @@ function injectUI(timelineParent) {
     container.style.paddingTop = '20px'
     container.style.fontSize = '20px'
     container.style.lineHeight = '40px'
+    container.style.textShadow = '1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000'
 }
 
 function replaceTimeline() {
@@ -57,11 +58,13 @@ function replaceTimeline() {
 
 function removeSidebar() {
     function removeSidebarRetry() {
-        const sidebar = document.querySelector(`[data-testid="sidebarColumn"]`)
-        if (sidebar == null) {
+        const trending = document.querySelector(`[aria-label="Timeline: Trending now"]`)
+        const follow = document.querySelector(`[aria-label="Who to follow"]`)
+        if (trending == null || follow == null) {
             return
         } else {
-            sidebar.style.display = 'none'
+            trending.style.display = 'none'
+            follow.parentNode.style.display = 'none'
         }
     }
     setInterval(removeSidebarRetry, 1000)
