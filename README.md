@@ -1,6 +1,6 @@
 # Twitter-Free Mornings
 
-This is a Chrome extension to hide your Twitter feed every morning. Hopefully you gain a few minutes back every day.
+This is a Chrome extension to hide your Twitter feed every morning until noon. Hopefully you gain a few minutes back every day.
 
 You can download the extension for [Chrome](https://chrome.google.com/webstore/detail/twitter-free-mornings/aakcffljphdeofhdfjpbggfolejicbhh) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/twitter-free-mornings/). The Product Hunt launch is [here](https://www.producthunt.com/posts/twitter-free-mornings).
 
